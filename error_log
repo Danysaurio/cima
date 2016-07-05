@@ -1,0 +1,2 @@
+[27-Jun-2016 17:04:15 UTC] PHP Fatal error:  Call to undefined function phprequire() in /home/danizava/public_html/cima/userSesion.php on line 29
+[27-Jun-2016 17:05:30 UTC] PHP Fatal error:  Call to undefined function phprequire() in /home/danizava/public_html/cima/userSesion.php on line 29

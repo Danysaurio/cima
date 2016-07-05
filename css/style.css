@@ -1,0 +1,429 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+	color: #00406e;
+	font-family: 'unbutu';
+	font-weight: 500;
+	font-size: 1.3em;
+}
+
+nav {
+	height: 70px;
+}
+
+.menu-face:hover {
+	background-color: transparent;
+}
+
+.nav-wrapper {
+	overflow: hidden;
+	z-index: 4;
+}
+
+.face img {
+	margin-top: .7em;
+	-webkit-transition: width 5s;
+	transition: width 5s;
+}
+
+.face img:hover {
+	width: 2.3em;
+}
+
+p {
+	line-height: 2rem;
+}
+
+.button-collapse {
+	color: #26a69a;
+}
+
+.parallax-container {
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+	width: 100%;
+}
+
+
+/*================
+Nosotros
+=================*/
+
+.Our-section {
+	background-color: #003f6b;
+	margin-top: 2em;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.our-box {
+	background-color: #73b0a8;
+	margin-top: 3em;
+}
+
+.our-title {
+	color: #fff;
+	font-family: 'Unbutu';
+	font-weight: 600;
+}
+
+.unbutu {
+	font-family: 'Unbutu';
+	font-weight: 600;
+}
+
+.our-title img {
+	height: 45px;
+	margin-right: .3em;
+}
+
+.our-boxText {
+	margin-top: .5em;
+}
+
+.our-boxText>div {
+	background-color: #4dadb9;
+	padding: .3em 1em;
+	color: #fff;
+}
+
+
+/*================
+*como funciona
+=================*/
+
+.list-container {
+	width: 100%;
+	background-image: url(../img/bgblu.jpg);
+	padding: 2em;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: cover;
+	margin-top: 3em;
+}
+
+.pasos-list {
+	font-family: 'unbutu';
+	font-weight: 400;
+	font-size: 1.6em;
+	color: #fff;
+	margin-top: 1.7em;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.pasos-list span {
+	font-weight: 600;
+}
+
+.pdf-load {
+	margin-left: 1em;
+	padding: .2em .8em;
+	background: #fff;
+	border-radius: 1em;
+	font-wei70ght: 600;
+	color: #003f6b;
+}
+
+
+/*================
+*contacto
+=================*/
+
+.contacto {
+	background-image: url(../img/contact-bg.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	padding: 3em;
+}
+
+.container-contacto {
+	width: 60%;
+	min-width: 70px;
+}
+
+.form input,
+.form textarea,
+.registro input,
+.login input {
+	background-color: #fff;
+	border-radius: 1em;
+	font-size: 1.2em;
+	font-family: 'roboto' sans-serif;
+	font-weight: 400;
+	padding-left: 1em;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.form textarea {
+	padding-top: .5em;
+	height: 200px;
+}
+
+.form input::-webkit-input-placeholder,
+.form textarea::-webkit-input-placeholder {
+	color: #757575;
+}
+
+.form input:-moz-placeholder,
+.form textarea:-moz-placeholder {
+	/* Firefox 18- */
+	color: #757575;
+}
+
+.form input::-moz-placeholder,
+.form textarea::-moz-placeholder {
+	/* Firefox 19+ */
+	color: #757575;
+}
+
+.form input:-ms-input-placeholder,
+.form textarea:-ms-input-placeholder {
+	color: #757575;
+}
+
+.submit {
+	text-align: center;
+}
+
+.btn-contacto {
+	padding: 1px 6px;
+	padding-right: 18px;
+	font-family: "unbutu";
+	font-weight: bold;
+}
+
+.correcto {
+	text-align: center;
+	padding: 1em;
+	font-family: "unbutu";
+	font-weight: 800;
+	border-radius: 4em;
+	font-size: 1.2em;
+	color: white;
+	display: none;
+}
+
+.funciono {
+	color: #009688;
+	border: 2px solid #009688;
+	background-color: white;
+	padding: .5em;
+	font-size: 2em;
+	border-radius: 100%;
+	margin-bottom: 1em;
+}
+
+.wats {
+	text-align: center;
+	font-family: "unbutu";
+	font-weight: 500;
+	font-size: 1.7em;
+	padding: 1em;
+	margin-top: 1.5em;
+	color: #fff;
+}
+
+.wats img {
+	width: 2em;
+}
+
+
+/*================
+*Registro
+=================*/
+
+.registro {
+	padding: 2em;
+	background-image: url(../img/bg-registro.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.btn-registrar {
+	border-radius: 1em;
+	background-color: #26a69a;
+}
+
+
+/*================
+login
+=================*/
+
+.login {
+	background: #003f6b;
+}
+
+.loginTitle {
+	color: #fff;
+}
+
+.btn-loginContainer {
+	text-align: center;
+}
+
+.btn-loginContainer a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+
+/*================
+*Userinterfaz
+=================*/
+
+.title-sesion {
+	color: #003F6E;
+	margin: 1em;
+}
+
+.userImg {
+	width: 100%;
+	border-radius: 100%;
+	background-color: #E0E0E0;
+}
+
+.miPErfil {
+	background-color: #fff;
+	border-radius: 10px;
+	padding: 3em 2em 1em 3.5em;
+	position: relative;
+}
+
+.editar {
+	position: absolute;
+	right: 40px;
+}
+
+.datos {
+	-webkit-transform: translateY(10%);
+	transform: translateY(10%);
+}
+
+.datos h4 {
+	font-family: 'unbutu';
+	color: #003F6E;
+	font-weight: 500;
+}
+
+.miMail {
+	font-size: 1.5em;
+	color: #9CB12F;
+}
+
+.invitoPor {
+	color: #003F6E;
+	font-size: 19px;
+}
+
+.invitador {
+	font-weight: 500;
+	color: #757575;
+	display: inline-block;
+	;
+	margin-top: .4em;
+	font-size: 1.2em;
+}
+
+.contenedor-invitados>div {
+	margin: 1em 0;
+}
+
+.inv>span {
+	border-radius: 5px;
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	padding: 3em 0 !important;
+	border-left: solid 1em #033c69;
+	border-right: solid 1em #033c69;
+	border-top: solid .5em #033c69;
+	border-bottom: solid .5em #033c69;
+}
+
+.InvEight>div {
+	float: none;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+}
+
+.InvEight span {
+	padding: 1em 0 !important;
+	border: solid 8px #033c69 !important;
+}
+
+.InvEight {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+}
+
+
+/*
+.final-invi{
+	background: #FAFAFA;
+	}*/
+
+.final-invi span {
+	display: block;
+	font-size: 1.3em;
+	padding: .4em 0;
+	margin-bottom: .5em;
+	font-weight: 600;
+	color: #757575;
+	border: solid 2px #033c69;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 992px) {
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#index-banner .section {
+		top: 0;
+	}
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer {
+	margin: 0;
+}
