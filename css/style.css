@@ -400,6 +400,20 @@ login
 	border-radius: 5px;
 }
 
+
+/*================
+*admin
+=================*/
+
+.admin-table td,
+.admin-table th {
+	padding-left: 3em;
+}
+
+.admin-table th {
+	color: #003F6E;
+}
+
 @media only screen and (max-width: 992px) {
 	.parallax-container .section {
 		position: absolute;
